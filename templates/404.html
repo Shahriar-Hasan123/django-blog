@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Error</title>
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="{% static 'css/404.css' %}" rel="stylesheet">
+  </head>
+   <body>
+        <div class="custom-bg text-dark ">
+        <div class="d-flex align-items-center justify-content-center min-vh-100 px-2">
+            <div class="text-center">
+                <h1 class="display-1 fw-bold">404</h1>
+                <p class="fs-2 fw-medium mt-4">Oops! Page not found</p>
+                <p class="mt-4 mb-5">The page you're looking for doesn't exist or has been moved.</p>
+                <a href="/" class="btn btn-btn-primary fw-semibold rounded-pill px-4 py-2 custom-btn">
+                    Go Home
+                </a>
+            </div>
+        </div>
+</div>
+   </body>
+</html>
