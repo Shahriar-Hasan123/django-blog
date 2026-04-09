@@ -3,6 +3,7 @@
 import os
 import sys
 
+# admin: django-admin  password: shahriar19735
 
 def main():
     """Run administrative tasks."""
